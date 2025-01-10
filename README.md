@@ -1,7 +1,8 @@
 # Real-Time-Sign-language-Detector
 This repository contains a Python-based application that detects sign language gestures using a webcam feed. The project utilizes deep learning models, OpenCV for video processing, and TensorFlow for gesture classification. The main objective is to recognize hand gestures in real time and display their corresponding labels.
 
-Features
+Features:
+--------
 
 Real-Time Hand Gesture Detection: Detects hand gestures through a webcam feed.
 
@@ -11,7 +12,8 @@ Dynamic Cropping: Automatically identifies the hand in the webcam feed and adjus
 
 Interactive Interface: Displays the webcam feed and gesture classification results directly on the screen.
 
-Prerequisites
+Prerequisites:
+-------------
 
 Make sure you have the following installed:
 
@@ -25,7 +27,8 @@ NumPy
 
 cvzone (for hand detection)
 
-How It Works
+How It Works:
+-------------
 
 Webcam Feed:
 The application accesses the webcam and displays a live feed.
@@ -48,7 +51,8 @@ The application overlays the predicted label and bounding box on the webcam feed
 
 Labels such as "No Hands Detected" are shown when no hand is present in the frame.
 
-Model Information
+Model Information:
+-----------------
 
 Model Type: TensorFlow SavedModel format.
 
@@ -58,7 +62,8 @@ Output: Predicted gesture label based on the input image.
 
 
 
-Limitations
+Limitations:
+-----------
 
 Works best with a well-lit environment.
 
@@ -66,7 +71,8 @@ May struggle with overlapping hands or multiple hands in the frame.
 
 Accuracy depends on the quality of the training dataset.
 
-Future Enhancements
+Future Enhancements:
+-------------------
 
 Add support for additional gestures.
 
